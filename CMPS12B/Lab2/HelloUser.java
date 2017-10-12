@@ -1,3 +1,5 @@
+//Juan Ayala
+//jumaayal
 //----------------------------------------------------------------------------
 //HelloUser.java
 //Prints greeting to stdout, then prints out some environment information.
