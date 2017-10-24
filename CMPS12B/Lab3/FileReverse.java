@@ -1,3 +1,8 @@
+/*Juan Ayala
+*jumaayal
+*Takes each full token and reverses token, printing it out on a file
+*/
+
 import java.io.*;
 import java.util.Scanner;
 class FileReverse{
