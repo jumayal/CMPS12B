@@ -1,0 +1,15 @@
+Juan Ayala
+jumaayal
+
+Files Being Submitted:
+  README
+  Makefile
+  Balanced.jar
+  Balanced.java
+  more-input.txt
+  more-output.txt
+  test-input.txt
+  test-output.txt
+Notes:
+  I have multiple classes in Balanced.java so they all have to be linked,
+  which they are. Use Makefile
