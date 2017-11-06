@@ -12,4 +12,6 @@ Files Being Submitted:
   test-output.txt
 Notes:
   I have multiple classes in Balanced.java so they all have to be linked,
-  which they are. Use Makefile
+  which they are. Use Makefile.
+  Node and Stackls classes were influnced by slides shown in lecture, Which
+  we were told were fine to use.
