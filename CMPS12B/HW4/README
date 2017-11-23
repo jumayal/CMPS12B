@@ -4,8 +4,11 @@ Jumaayal
 
 Turning in:
 SlugFest.java
-SlugFest.jar
 test-input.txt
 more-input.txt
+more-output.get
+README
+Makefile
 
 Credit: Many of the queue methods is taken from the slides presented in the class
+Note: use make since there are multiple classes in one file
