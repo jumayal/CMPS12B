@@ -60,10 +60,15 @@ class SlugFest{
     QueueLs soon = one;
     QueueLs inLine[] = {two, three, four, five};
     for(int i=0; i<4;i++){
-      if(!(soon.isEmpty())&& !(inLine[i].isEmpty())){
-        if((soon.getTime() >= inLine[i].getTime() ) && (inLine[i].peek().getArrival() <= soon.getTime())){
-          soon = inLine[i];
-        }
+      if(soon.isEmpty()){
+        soon=inLine[i];
+        continue;
+      }
+      if(inLine[i].isEmpty()){
+        continue;
+      }
+      if((soon.getTime() >= inLine[i].getTime() ) && (inLine[i].peek().getArrival() <= soon.getTime())){
+        soon = inLine[i];
       }
     }
     return soon;
